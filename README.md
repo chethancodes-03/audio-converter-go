@@ -17,6 +17,7 @@ This tool is designed to be flexible and easy to extend with additional audio pr
 - **Go**: Core language for server implementation, known for its performance and concurrency support.
 - **SoX**: High-quality audio processing using SoX, a command-line utility for format conversion.
 - **WebSocket**: Supports low-latency streaming of audio data, enabling continuous, bi-directional communication.
+- **Python**: Client side scripting language, known for seamlessly integrating with server through websockets with help of built in libraries.
 
 ## Folder Structure
 ```
