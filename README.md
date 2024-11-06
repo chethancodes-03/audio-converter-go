@@ -25,6 +25,7 @@ AUDIO CONVERTER-GO/
 ├── __debug_bin...exe        # Debug binaries created during VS Code sessions
 ├── file_example_WAV_2MG.wav # Sample input file for testing audio conversion
 ├── go.mod                   # Defines Go module and dependencies
+├── interationTest.go        # Go test file for integration testing between in main.go(server) and text.py client.
 ├── go.sum                   # Contains dependency checksums
 ├── main.go                  # Main Go application code for the audio converter
 ├── maintest.go              # Go test file for testing functions in main.go
