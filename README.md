@@ -1,7 +1,3 @@
-Here's the `README.md` content with proper Markdown formatting, including hyperlinks, code blocks, and headings for improved readability:
-
----
-
 # Audio Converter GO
 
 ## Overview
@@ -145,6 +141,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Go (Golang)](https://golang.org/) for providing the programming language for this project.
 - WebSocket for enabling real-time audio streaming.
 
---- 
-
-This `README.md` should display correctly when viewed on GitHub or a Markdown viewer. Adjust links and commands based on your specific needs.
