@@ -113,6 +113,10 @@ This project includes a basic testing suite to validate functionality:
 ```bash
 go test maintest.go
 ```
+```bash
+go test integrationTest.go
+```
+Note: Couldn't complete this testing part, due to time constraint.
 
 ## Contributing
 Fork the repository and submit pull requests for new features, bug fixes, or improvements.
@@ -121,6 +125,7 @@ Fork the repository and submit pull requests for new features, bug fixes, or imp
 - Ensure existing functionality remains intact.
 - Add tests for new features.
 - Follow the project’s code style for consistency.
+- This readme instructions is specifically for windows os.
 
 ## License
 Licensed under the MIT License. See LICENSE for details.
