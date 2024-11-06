@@ -1,22 +1,34 @@
-Audio Converter GO
-Overview
-Audio Converter GO is a lightweight, Go-based audio file conversion tool utilizing SoX (Sound eXchange) to convert .WAV files to .FLAC format. It supports real-time streaming over WebSocket connections, enabling efficient handling of audio data for live conversions or large file streams.
+# Audio Converter GO
+
+## Overview
+
+**Audio Converter GO** is a lightweight, Go-based audio file conversion tool utilizing [SoX (Sound eXchange)](http://sox.sourceforge.net/) to convert `.WAV` files to `.FLAC` format. It supports real-time streaming over WebSocket connections, enabling efficient handling of audio data for live conversions or large file streams.
 
 This tool is designed to be flexible and easy to extend with additional audio processing features or formats.
 
-Features
-WAV to FLAC Conversion: Converts .WAV files to .FLAC format, leveraging SoX for high-quality processing.
-Real-Time Streaming: Streams audio data to handle large audio files or real-time conversions.
-WebSocket API: Uses WebSocket connections for audio streaming and conversion requests.
-Concurrency Control: Implements a semaphore to limit concurrent WebSocket connections for optimized resource usage.
-Testing Suite: Includes test files to validate functionality and ensure reliability.
-Technology Stack
-Go: Core language for server implementation, known for its performance and concurrency support.
-SoX: High-quality audio processing using SoX, a command-line utility for format conversion.
-WebSocket: Supports low-latency streaming of audio data, enabling continuous, bi-directional communication.
-Folder Structure
-plaintext
-Copy code
+---
+
+## Features
+
+- **WAV to FLAC Conversion**: Converts `.WAV` files to `.FLAC` format, leveraging SoX for high-quality processing.
+- **Real-Time Streaming**: Streams audio data to handle large audio files or real-time conversions.
+- **WebSocket API**: Uses WebSocket connections for audio streaming and conversion requests.
+- **Concurrency Control**: Implements a semaphore to limit concurrent WebSocket connections for optimized resource usage.
+- **Testing Suite**: Includes test files to validate functionality and ensure reliability.
+
+---
+
+## Technology Stack
+
+- **Go**: Core language for server implementation, known for its performance and concurrency support.
+- **SoX**: High-quality audio processing using SoX, a command-line utility for format conversion.
+- **WebSocket**: Supports low-latency streaming of audio data, enabling continuous, bi-directional communication.
+
+---
+
+## Folder Structure
+
+```plaintext
 AUDIO CONVERTER-GO/
 ├── .venv/                   # Virtual environment (optional, for Python-based tests or scripts)
 ├── __debug_bin...exe        # Debug binaries created during VS Code sessions
@@ -28,6 +40,8 @@ AUDIO CONVERTER-GO/
 ├── output.flac              # Converted output file in FLAC format
 ├── test_tone_440hz.wav      # Test file for frequency-based testing
 ├── test.py                  # Auxiliary Python script for testing or automation
+
+
 Prerequisites
 Go: Install Go, and verify with go version.
 SoX (Sound eXchange): Install SoX, and verify with sox --version.
@@ -111,3 +125,4 @@ Acknowledgments
 SoX: Core audio conversion utility.
 Gorilla WebSocket: WebSocket support for Go.
 Go: Efficient concurrency and performance for server functionality.
+
