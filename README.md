@@ -128,5 +128,3 @@ Licensed under the MIT License. See LICENSE for details.
 - **Gorilla WebSocket**: WebSocket support for Go.
 - **Go**: Efficient concurrency and performance for server functionality.
 ```
-
-You can now copy this and directly use it in your GitHub repository as `README.md`.
